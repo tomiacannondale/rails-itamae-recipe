@@ -1,0 +1,24 @@
+rbenv:
+  global:
+    2.4.6
+  versions:
+    - 2.7.0
+    - 2.4.6
+  # specify scheme to use in git clone, optional (default: git)
+  scheme: https
+
+  # Create ~/.rbenv/cache, optional (default: false)
+  # See: https://github.com/rbenv/ruby-build#package-download-caching
+  cache: true
+
+  # Install build dependencies or not (default: true)
+  # Recommend false if `--no-sudo`
+  install_dependency: true
+
+nodenv:
+  global:
+    12.16.1
+  versions:
+    - 12.16.1
+  # used in git clone (default: git)
+  scheme: https
